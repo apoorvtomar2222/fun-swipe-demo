@@ -1,0 +1,30 @@
+{
+  "name": "fun-swipe-demo",
+  "version": "1.0.0",
+  "description": "> generates random string out of adjective, animal and a number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apoorvtomar2222/fun-swipe-demo.git"
+  },
+  "keywords": [],
+  "author": "Apoorv Tomar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apoorvtomar2222/fun-swipe-demo/issues"
+  },
+  "homepage": "https://github.com/apoorvtomar2222/fun-swipe-demo#readme",
+  "dependencies": {
+    "adjectives": "^1.0.2",
+    "animals": "0.0.3",
+    "random-number-in-range": "^1.0.2"
+  },
+  "devDependencies": {
+    "nyc": "^12.0.1",
+    "standard": "^11.0.1",
+    "tap": "^12.0.1"
+  }
+}
