@@ -1,8 +1,10 @@
-const test = require('tap').test;
+const test = require('tap').test
 const generateRandomString = require('../index')
 
 test('smoke test', function (t) {
     const string = generateRandomString()
-    t.fs(typeof string, 'string');
+    t.is(typeof string, 'string')
+    t.ok(string.length > 0, 'string')
+    // t.ok(/-\d(2)$/.test(string))
     t.end()
 })
